@@ -46,7 +46,7 @@ Go to `View -> Layout -> Columns: 2`. Then, with the cursor in the right column,
 
 - Install `Terminus` package for accessing terminal in sublime. Press `ctrl + shift + p` and type "install" and choose "install package", then type `Terminus` and chose terminus and press enter. 
 
-- Create a build system to run programs in terminal. Copy the contents of the file [Cpp Terminal.sublime-build](https://github.com/Sami-63/Sublime-setup/blob/master/Cpp%20Terminal.sublime-build). Now go to `Tools -> Build Systems -> New Build System` and paste and save the build system. 
+- Create a build system to run programs in terminal. Copy the contents of the file [Cpp Terminal.sublime-build](https://github.com/S4-MI/Sublime-setup/blob/master/Cpp%20Terminal.sublime-build). Now go to `Tools -> Build Systems -> New Build System` and paste and save the build system. 
     >  Note : Make sure you are saving the build system in the sublime's package file.  Make sure the name of the build system ends with .sublime-build, for example `Cpp Terminal.sublime-build`.
 
 - To run the terminal build system press `ctrl + shift + b` and select the terminal build system(for example: `Cpp Terminal`).
@@ -72,7 +72,7 @@ b. If you are using firefox, then go the the settings of the extension. Then in 
 
 - Now when you right click on a file in subilme you will see an option called `Listen to competitive companion`. Now we'll change the run key bindings and make some optimization. First go to `Preferences -> Browse Package -> CppFastOlympicCoding` then open `Default (Linux).sublime-keymap`. Using `ctrl + f` find `ctrl + alt + b` and change it to `ctrl + ;`. Threre will be 2 occurences. Change both of them.
 
-- Copy all the content in the [Default (Linux).sublime-keymap](https://github.com/Sami-63/Sublime-setup/blob/master/Default%20(Linux).sublime-keymap) and go to `Preferences -> Key bindings`. In the right panel paste everything you copied. 
+- Copy all the content in the [Default (Linux).sublime-keymap](https://github.com/S4-MI/Sublime-setup/blob/master/Default%20(Linux).sublime-keymap) and go to `Preferences -> Key bindings`. In the right panel paste everything you copied. 
 
 - Press `ctrl + shift + p` and type `setting` and go to `cppfastopympiccoding setting`. In the left panel, in "run_settings", in compile_cmd change the `-std=c++11` to `-std=c++17`, and in the lint_compile_cmd change the `-std=gnu++11` to `-std=gnu++17`. And you are set to go. 
 
@@ -86,7 +86,7 @@ b. If you are using firefox, then go the the settings of the extension. Then in 
 
 - Problem parser is done, now lets setup the linter and auto suggestion. We need to install 2 packages, `SublimeLinter`, `SublimeLinter-gcc` for linter. Press `ctrl + shift + p` and type "install" and choose install package and install these packages one by one. 
 
-- Copy all the content from [SublimeLinter.sublime-settings](https://github.com/Sami-63/Sublime-setup/blob/master/SublimeLinter.sublime-settings). Now press `ctrl + shift + p` and type "Settings" and choose "SublimeLinter - Settings" and in the right panel paste everything you copied.
+- Copy all the content from [SublimeLinter.sublime-settings](https://github.com/S4-MI/Sublime-setup/blob/master/SublimeLinter.sublime-settings). Now press `ctrl + shift + p` and type "Settings" and choose "SublimeLinter - Settings" and in the right panel paste everything you copied.
    
 
 ## 5. Setting up auto suggestion
@@ -98,6 +98,6 @@ b. If you are using firefox, then go the the settings of the extension. Then in 
     sudo apt install clangd
     ```
 
-- Now go to sublime and type `ctrl + shift + p` and type setting and go to "LSP - Settings". Now copy all the content from [LSP.sublime-settings](https://github.com/Sami-63/Sublime-setup/blob/master/LSP.sublime-settings) and paste in the LSP setings file. 
+- Now go to sublime and type `ctrl + shift + p` and type setting and go to "LSP - Settings". Now copy all the content from [LSP.sublime-settings](https://github.com/S4-MI/Sublime-setup/blob/master/LSP.sublime-settings) and paste in the LSP setings file. 
 
 - Now the auto suggestion and linter both will work. 
